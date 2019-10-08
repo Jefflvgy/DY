@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF80F34234C2E10005A7A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF80F33234C2E10005A7A9E /* AppDelegate.swift */; };
+		ACF80F36234C2E10005A7A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF80F35234C2E10005A7A9E /* ViewController.swift */; };
+		ACF80F39234C2E10005A7A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF80F37234C2E10005A7A9E /* Main.storyboard */; };
+		ACF80F3B234C2E10005A7A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF80F3A234C2E10005A7A9E /* Assets.xcassets */; };
+		ACF80F3E234C2E10005A7A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF80F3C234C2E10005A7A9E /* LaunchScreen.storyboard */; };
+		ACF80F49234C2E10005A7A9E /* JeffdyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF80F48234C2E10005A7A9E /* JeffdyTests.swift */; };
+		ACF80F54234C2E10005A7A9E /* JeffdyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF80F53234C2E10005A7A9E /* JeffdyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF80F45234C2E10005A7A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF80F28234C2E0F005A7A9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF80F2F234C2E0F005A7A9E;
+			remoteInfo = Jeffdy;
+		};
+		ACF80F50234C2E10005A7A9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF80F28234C2E0F005A7A9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF80F2F234C2E0F005A7A9E;
+			remoteInfo = Jeffdy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF80F30234C2E10005A7A9E /* Jeffdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeffdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF80F33234C2E10005A7A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF80F35234C2E10005A7A9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF80F38234C2E10005A7A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF80F3A234C2E10005A7A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF80F3D234C2E10005A7A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF80F3F234C2E10005A7A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF80F44234C2E10005A7A9E /* JeffdyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeffdyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF80F48234C2E10005A7A9E /* JeffdyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeffdyTests.swift; sourceTree = "<group>"; };
+		ACF80F4A234C2E10005A7A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF80F4F234C2E10005A7A9E /* JeffdyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeffdyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF80F53234C2E10005A7A9E /* JeffdyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeffdyUITests.swift; sourceTree = "<group>"; };
+		ACF80F55234C2E10005A7A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF80F2D234C2E0F005A7A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF80F41234C2E10005A7A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF80F4C234C2E10005A7A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF80F27234C2E0F005A7A9E = {
+			isa = PBXGroup;
+			children = (
+				ACF80F32234C2E10005A7A9E /* Jeffdy */,
+				ACF80F47234C2E10005A7A9E /* JeffdyTests */,
+				ACF80F52234C2E10005A7A9E /* JeffdyUITests */,
+				ACF80F31234C2E10005A7A9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF80F31234C2E10005A7A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF80F30234C2E10005A7A9E /* Jeffdy.app */,
+				ACF80F44234C2E10005A7A9E /* JeffdyTests.xctest */,
+				ACF80F4F234C2E10005A7A9E /* JeffdyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF80F32234C2E10005A7A9E /* Jeffdy */ = {
+			isa = PBXGroup;
+			children = (
+				ACF80F33234C2E10005A7A9E /* AppDelegate.swift */,
+				ACF80F35234C2E10005A7A9E /* ViewController.swift */,
+				ACF80F37234C2E10005A7A9E /* Main.storyboard */,
+				ACF80F3A234C2E10005A7A9E /* Assets.xcassets */,
+				ACF80F3C234C2E10005A7A9E /* LaunchScreen.storyboard */,
+				ACF80F3F234C2E10005A7A9E /* Info.plist */,
+			);
+			path = Jeffdy;
+			sourceTree = "<group>";
+		};
+		ACF80F47234C2E10005A7A9E /* JeffdyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF80F48234C2E10005A7A9E /* JeffdyTests.swift */,
+				ACF80F4A234C2E10005A7A9E /* Info.plist */,
+			);
+			path = JeffdyTests;
+			sourceTree = "<group>";
+		};
+		ACF80F52234C2E10005A7A9E /* JeffdyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF80F53234C2E10005A7A9E /* JeffdyUITests.swift */,
+				ACF80F55234C2E10005A7A9E /* Info.plist */,
+			);
+			path = JeffdyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF80F2F234C2E0F005A7A9E /* Jeffdy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF80F58234C2E10005A7A9E /* Build configuration list for PBXNativeTarget "Jeffdy" */;
+			buildPhases = (
+				ACF80F2C234C2E0F005A7A9E /* Sources */,
+				ACF80F2D234C2E0F005A7A9E /* Frameworks */,
+				ACF80F2E234C2E0F005A7A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeffdy;
+			productName = Jeffdy;
+			productReference = ACF80F30234C2E10005A7A9E /* Jeffdy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF80F43234C2E10005A7A9E /* JeffdyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF80F5B234C2E10005A7A9E /* Build configuration list for PBXNativeTarget "JeffdyTests" */;
+			buildPhases = (
+				ACF80F40234C2E10005A7A9E /* Sources */,
+				ACF80F41234C2E10005A7A9E /* Frameworks */,
+				ACF80F42234C2E10005A7A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF80F46234C2E10005A7A9E /* PBXTargetDependency */,
+			);
+			name = JeffdyTests;
+			productName = JeffdyTests;
+			productReference = ACF80F44234C2E10005A7A9E /* JeffdyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF80F4E234C2E10005A7A9E /* JeffdyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF80F5E234C2E10005A7A9E /* Build configuration list for PBXNativeTarget "JeffdyUITests" */;
+			buildPhases = (
+				ACF80F4B234C2E10005A7A9E /* Sources */,
+				ACF80F4C234C2E10005A7A9E /* Frameworks */,
+				ACF80F4D234C2E10005A7A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF80F51234C2E10005A7A9E /* PBXTargetDependency */,
+			);
+			name = JeffdyUITests;
+			productName = JeffdyUITests;
+			productReference = ACF80F4F234C2E10005A7A9E /* JeffdyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF80F28234C2E0F005A7A9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "fengtao Xu";
+				TargetAttributes = {
+					ACF80F2F234C2E0F005A7A9E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					ACF80F43234C2E10005A7A9E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACF80F2F234C2E0F005A7A9E;
+					};
+					ACF80F4E234C2E10005A7A9E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACF80F2F234C2E0F005A7A9E;
+					};
+				};
+			};
+			buildConfigurationList = ACF80F2B234C2E0F005A7A9E /* Build configuration list for PBXProject "Jeffdy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF80F27234C2E0F005A7A9E;
+			productRefGroup = ACF80F31234C2E10005A7A9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF80F2F234C2E0F005A7A9E /* Jeffdy */,
+				ACF80F43234C2E10005A7A9E /* JeffdyTests */,
+				ACF80F4E234C2E10005A7A9E /* JeffdyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF80F2E234C2E0F005A7A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF80F3E234C2E10005A7A9E /* LaunchScreen.storyboard in Resources */,
+				ACF80F3B234C2E10005A7A9E /* Assets.xcassets in Resources */,
+				ACF80F39234C2E10005A7A9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF80F42234C2E10005A7A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF80F4D234C2E10005A7A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF80F2C234C2E0F005A7A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF80F36234C2E10005A7A9E /* ViewController.swift in Sources */,
+				ACF80F34234C2E10005A7A9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF80F40234C2E10005A7A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF80F49234C2E10005A7A9E /* JeffdyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF80F4B234C2E10005A7A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF80F54234C2E10005A7A9E /* JeffdyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF80F46234C2E10005A7A9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF80F2F234C2E0F005A7A9E /* Jeffdy */;
+			targetProxy = ACF80F45234C2E10005A7A9E /* PBXContainerItemProxy */;
+		};
+		ACF80F51234C2E10005A7A9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF80F2F234C2E0F005A7A9E /* Jeffdy */;
+			targetProxy = ACF80F50234C2E10005A7A9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF80F37234C2E10005A7A9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF80F38234C2E10005A7A9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF80F3C234C2E10005A7A9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF80F3D234C2E10005A7A9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF80F56234C2E10005A7A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF80F57234C2E10005A7A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF80F59234C2E10005A7A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jeffdy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xft.Jeffdy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACF80F5A234C2E10005A7A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jeffdy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xft.Jeffdy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ACF80F5C234C2E10005A7A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JeffdyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xft.JeffdyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jeffdy.app/Jeffdy";
+			};
+			name = Debug;
+		};
+		ACF80F5D234C2E10005A7A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JeffdyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xft.JeffdyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jeffdy.app/Jeffdy";
+			};
+			name = Release;
+		};
+		ACF80F5F234C2E10005A7A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JeffdyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xft.JeffdyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jeffdy;
+			};
+			name = Debug;
+		};
+		ACF80F60234C2E10005A7A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JeffdyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xft.JeffdyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jeffdy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF80F2B234C2E0F005A7A9E /* Build configuration list for PBXProject "Jeffdy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF80F56234C2E10005A7A9E /* Debug */,
+				ACF80F57234C2E10005A7A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF80F58234C2E10005A7A9E /* Build configuration list for PBXNativeTarget "Jeffdy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF80F59234C2E10005A7A9E /* Debug */,
+				ACF80F5A234C2E10005A7A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF80F5B234C2E10005A7A9E /* Build configuration list for PBXNativeTarget "JeffdyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF80F5C234C2E10005A7A9E /* Debug */,
+				ACF80F5D234C2E10005A7A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF80F5E234C2E10005A7A9E /* Build configuration list for PBXNativeTarget "JeffdyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF80F5F234C2E10005A7A9E /* Debug */,
+				ACF80F60234C2E10005A7A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF80F28234C2E0F005A7A9E /* Project object */;
+}
